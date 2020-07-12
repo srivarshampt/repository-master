@@ -8,7 +8,7 @@ public class Alien {
 	@Id
 	private int id;
 	private String name;
-	private String lang;
+	private String lang1;
 	public int getId() {
 		return id;
 	}
@@ -22,15 +22,15 @@ public class Alien {
 		this.name = name;
 	}
 
-	public String getLang() {
-		return lang;
+	public String getLang1() {
+		return lang1;
 	}
-	public void setLang(String lang) {
-		this.lang = lang;
+	public void setLang1(String lang) {
+		this.lang1 = lang;
 	}
 	public String toString()
 	{
-		return "Alien id "+id+" name "+name +" lang "+lang;
+		return "Alien id "+id+" name "+name +" lang "+lang1;
 		
 	}
   
