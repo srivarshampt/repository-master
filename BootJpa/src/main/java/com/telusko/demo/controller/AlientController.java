@@ -70,7 +70,7 @@ public class AlientController {
         return adao.findAll();
    	}
     
-    @GetMapping("/aliens/{id}")
+    @PostMapping("/aliens/{id}")
     @ResponseBody
    	public Optional<Alien> getAliens(@PathVariable("id") int id)
    	{
