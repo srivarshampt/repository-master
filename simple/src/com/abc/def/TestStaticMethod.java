@@ -40,9 +40,9 @@ public class TestStaticMethod{
 public static void main(String args[]){
 Student.change();//calling change method
 //creating objects
-Student s1 = new Student(111,"Karan");
-Student s2 = new Student(222,"Aryan");
-Student s3 = new Student(333,"Sonoo");
+Student s1 = new Student(111,"Karan1");
+Student s2 = new Student(222,"Aryan1");
+Student s3 = new Student(333,"Sonoo1");
 //calling display method
 s1.display();
 s2.display();
