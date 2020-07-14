@@ -44,8 +44,8 @@ Student.change();//calling change method
 Student s1 = new Student(111,"Karan14");
 Student s2 = new Student(222,"Aryan14");
 Student s3 = new Student(333,"Sonoo14");
-//calling display method13 
-//calling display method13
+//calling display method14 
+//calling display method14
 //calling display method
 s1.display();
 s2.display();
